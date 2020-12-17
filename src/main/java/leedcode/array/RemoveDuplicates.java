@@ -1,4 +1,4 @@
-package leedcode;
+package leedcode.array;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

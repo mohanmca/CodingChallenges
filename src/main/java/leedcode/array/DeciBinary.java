@@ -1,4 +1,4 @@
-package leedcode;
+package leedcode.array;
 
 public class DeciBinary {
     public static void main(String[] args) {
