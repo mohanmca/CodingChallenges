@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 public class AtoI {
     public static void main(String[] args) {
+        System.out.println(atoi(" "));
+        System.out.println(atoi(""));
+        System.out.println(atoi("   -1"));
+        System.out.println(atoi("  -5-"));
+        System.out.println(atoi("  +0 123"));
+        System.out.println(atoi("  -0012a42"));
+        System.out.println(atoi("00000-42a1234"));
         System.out.println(atoi("-91283472332"));
         System.out.println(atoi("2147483649"));
         System.out.println(atoi("-42"));
@@ -16,41 +23,47 @@ public class AtoI {
     }
 
     public static int atoi(String s) {
-        if (s == null && s.length() == 0) return 0;
+        if (s == null || s.length() == 0) return 0;
         Integer sign = null;
 
         int num = 0;
 
         int i = 0;
-        int size = s.toCharArray().length;
         char[] chars = s.toCharArray();
-        while (num >= 0 && i < s.toCharArray().length) {
-            char c = chars[i++];
-            if (c >= '0' && c <= '9' || c == '-' || c == '+') {
-                if ((c == '-' || c == '+') && sign == null)
-                    sign = c == '-' ? -1 : 1;
-                else if (c == '-' || c == '+')
-                    return 0;
-                else {
-                    if (num > Integer.MAX_VALUE / 10
-                            || (num == Integer.MAX_VALUE / 10 && c - '0' > Integer.MAX_VALUE % 10)) {
-                        if (sign == null || sign > 0)
-                            return Integer.MAX_VALUE;
-                        else
-                            return Integer.MIN_VALUE;
-
-                    } else {
-                        num = num * 10 + (c - '0');
-                    }
-                }
-
-            } else if (c != ' ') {
-                return num;
-            }
+        while (i < s.toCharArray().length && chars[i] == ' ') {
+            i++;
         }
 
-        if (num < 0) return Integer.MIN_VALUE;
-        return (sign != null ? num * sign : num);
+        if (chars.length == i) return num;
+
+        switch (chars[i]) {
+            case '-':
+                sign = -1;
+                i++;
+                break;
+            case '+':
+                sign = 1;
+                i++;
+                break;
+            default:
+                sign = 1;
+                break;
+        }
+
+        while (num >= 0 && i < chars.length) {
+            char c = chars[i++];
+            if (c >= '0' && c <= '9') {
+                if (num > Integer.MAX_VALUE / 10
+                        || (num == Integer.MAX_VALUE / 10 && c - '0' > Integer.MAX_VALUE % 10)) {
+                    return (sign > 0) ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+                } else {
+                    num = num * 10 + (c - '0');
+                }
+            } else {
+                return num * sign;
+            }
+        }
+        return num * sign;
     }
 
 }
