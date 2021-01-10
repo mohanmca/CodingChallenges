@@ -1,11 +1,6 @@
 package leedcode.array;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-
-public class SubArratSumEqualsK {
+public class SubArratSumEqualsKV4 {
     public static void main(String[] args) {
         System.out.println(subarraySum(new int[]{}, 1));
         System.out.println(subarraySum(new int[]{1}, 1));
@@ -31,16 +26,14 @@ public class SubArratSumEqualsK {
     }
 
     public static int subarraySum(int[] nums, int k) {
-        HashMap<Integer, Integer> mapCS = new HashMap<Integer, Integer>();
+        int[] cs = new int[nums.length + 1];
+        for (int i = 1; i <= nums.length; i++)
+            cs[i] = cs[i - 1] + nums[i-1];
         int count = 0;
-        int sum = 0;
-        mapCS.put(0, 1);
-        for (int num : nums) {
-            sum += num;
-            if (mapCS.containsKey(sum - k)) {
-                count += mapCS.get(sum - k);
+        for (int sw = nums.length; sw > 0; sw--) {
+            for (int i = nums.length; i >= sw; i--) {
+                if (cs[i] - cs[i - sw] == k) count++;
             }
-            mapCS.put(sum, mapCS.getOrDefault(sum, 0) + 1);
         }
         return count;
     }
