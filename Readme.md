@@ -61,7 +61,7 @@
 * Counting Triangles
 
 ## Hash Tables
-* Pair sums  [x]
+- [x] Pair sums
 
 ## Graph
 * Minimzing Permutations
