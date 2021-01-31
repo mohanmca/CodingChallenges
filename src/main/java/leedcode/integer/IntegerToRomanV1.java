@@ -1,19 +1,33 @@
-package leedcode.string;
+package leedcode.integer;
 
-public class IntegerToRoman {
+public class IntegerToRomanV1 {
 
     public static void main(String[] args) {
 //        System.out.println(intToRoman(39));
 //        System.out.println(intToRoman(1));
 //        System.out.println(intToRoman(87));
 //        System.out.println(intToRoman(187));
+/**
+ * Symbol       Value
+ * M             1000
+ * D             500
+ * C             100
+ * L             50
+ * X             10
+ * V             5
+ * I             1
+  */
         System.out.println(intToRoman(99));
         System.out.println(intToRoman(3999));
         System.out.println(intToRoman(3599));
         System.out.println(intToRoman(3499));
+        System.out.println(intToRoman(1234));
+        System.out.println(intToRoman(123));
     }
 
     public static String intToRoman(int num) {
+        char[] symbols = new char[]{'I', 'V', 'X', 'L', 'C', 'D', 'M'};
+
         int thousand = num / 1000;
         num = num % 1000;
         int nineHundred = num / 900;
