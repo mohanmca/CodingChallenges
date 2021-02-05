@@ -12,10 +12,9 @@
 
 1. Easy problem: https://leetcode.com/problems/maximum-subarray/
 2. Medium problem (a slight modification of this problem): https://leetcode.com/problems/minimum-window-substring/
-3. System design - Design a scheduling system that can schedule millions of jobs per day
-4. Algo 1 : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-5. Algo 2 : https://leetcode.com/problems/number-of-distinct-islands/
-6. Algo 3 : A variant of Josephus problem https://www.geeksforgeeks.org/josephus-problem-set-1-a-on-solution/
+3. https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+4. https://leetcode.com/problems/number-of-distinct-islands/
+6. https://www.geeksforgeeks.org/josephus-problem-set-1-a-on-solution/ (Algo 3 : A variant of Josephus problem )
 7. Final algo : https://leetcode.com/problems/course-schedule/
 8. https://leetcode.com/problems/design-add-and-search-words-data-structure/
 9. https://leetcode.com/problems/implement-trie-prefix-tree/
@@ -34,6 +33,7 @@
 22. Squares of a sorted Array
 23. (Above till 17th December)
 
+* System design - Design a scheduling system that can schedule millions of jobs per day
 * https://www.8bitmen.com/best-resources-to-learn-software-architecture-system-design/
 * https://www.cronj.com/blog/how-to-develop-chat-system-design-like-facebook-messenger/
 
