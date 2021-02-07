@@ -12,6 +12,19 @@ public class LevelOrderedTree {
         printLevelOrder(tree2);
     }
 
+    public static TreeNode sampleTree() {
+        Integer[] nums = {4, -7, -3, null, null, -9, -3, 9, -7, -4, null, 6, null, -6, -6, null, null, 0, 6, 5, null, 9, null, null, -1, -4, null, null, null, -2};
+        TreeNode tree = buildTree(nums);
+//        layerTheTree(nums);
+//        printLevelOrder(tree);
+        return tree;
+    }
+
+    public static TreeNode sampleTree2() {
+        Integer[] nums = {1, 2, 3, 4, 5};
+        return buildTree(nums);
+    }
+
     public static int log2(int n) {
         return (int) (Math.log(n) / Math.log(2));
     }

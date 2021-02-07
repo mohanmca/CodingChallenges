@@ -3,8 +3,14 @@ package leedcode.tree;
 public class DiameterOfBinaryTree {
 
 
+    private static int ans = 0;
+
     public static void main(String[] args) {
+        System.out.println(diameterOfBinaryTree(LevelOrderedTree.sampleTree2()));
+        System.out.println(diameterOfBinaryTree(LevelOrderedTree.sampleTree()));
+
         System.out.println(diameterOfBinaryTree(new TreeNode(15)));
+
         TreeNode rightTree = new TreeNode(20, new TreeNode(15), new TreeNode(7));
         TreeNode rootTree = new TreeNode(3, new TreeNode(9), rightTree);
         System.out.println(diameterOfBinaryTree(rootTree));
@@ -16,12 +22,16 @@ public class DiameterOfBinaryTree {
 
     public static int diameterOfBinaryTree(TreeNode root) {
         if (root == null) return 0;
-        return maxDepth(root.left) + maxDepth(root.right);
+        height(root);
+        return ans - 1;
     }
 
-    public static int maxDepth(TreeNode root) {
+    public static int height(TreeNode root) {
         if (root == null) return 0;
-        return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+        int left = height(root.left);
+        int right = height(root.right);
+        ans = Math.max(ans, left + right + 1);
+        return 1 + Math.max(left, right);
     }
 
 }
