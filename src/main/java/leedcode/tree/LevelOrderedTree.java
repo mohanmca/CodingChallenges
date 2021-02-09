@@ -25,6 +25,11 @@ public class LevelOrderedTree {
         return buildTree(nums);
     }
 
+    public static TreeNode sampleBalancedBinary() {
+        Integer[] nums = {3,9,20,null,null,15,7};
+        return buildTree(nums);
+    }
+
     public static int log2(int n) {
         return (int) (Math.log(n) / Math.log(2));
     }
