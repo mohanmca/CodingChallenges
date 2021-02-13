@@ -19,32 +19,26 @@ public class CopyListWithRandomPointer {
         System.out.println(solution.copyRandomList(head));
     }
 
-    public  Node copyRandomList(Node node) {
-        Map<Integer, Node> index = new HashMap<>();
-        return copyRandomList(node, index);
+    public Node copyRandomList(Node head) {
+        Map<Node, Node> index = new HashMap<>();
+        return copyRandomList(head, index);
     }
 
-    public  Node copyRandomList(Node node, Map<Integer, Node> nodes) {
-        if (node == null) return null;
-        int i = nodes.size();
-        Node newNode = new Node(node.val);
-        nodes.put(i, newNode);
-        newNode.next = copyRandomList(node.next, nodes);
-        int j = findN(node.random);
-        if (j >= 0) {
-            int k = nodes.size() - 1 - j;
-            newNode.random = nodes.getOrDefault(k, null);
+    public Node copyRandomList(Node head, Map<Node, Node> nodes) {
+        if (head == null) return null;
+        Node headPointer = head;
+        Node oldNode = head;
+        while (oldNode != null) {
+            Node newNode = new Node(oldNode.val);
+            nodes.put(oldNode, newNode);
+            oldNode = oldNode.next;
         }
-        return newNode;
-    }
-
-    private static int findN(Node random) {
-        int n = -1;
-        while (random != null) {
-            n++;
-            random = random.next;
+        while (head != null) {
+            nodes.get(head).random = nodes.get(head.random);
+            nodes.get(head).next = nodes.get(head.next);
+            head = head.next;
         }
-        return n;
+        return nodes.get(headPointer);
     }
 
 
