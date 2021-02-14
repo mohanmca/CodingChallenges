@@ -4,12 +4,14 @@ import java.util.*;
 
 public class LevelOrderedTree {
     public static void main(String[] args) {
-        Integer[] nums = {4, -7, -3, null, null, -9, -3, 9, -7, -4, null, 6, null, -6, -6, null, null, 0, 6, 5, null, 9, null, null, -1, -4, null, null, null, -2};
-        layerTheTree(nums);
-        TreeNode tree = buildTree(nums);
-        printLevelOrder(tree);
-        TreeNode tree2 = buildTreeV1(nums);
-        printLevelOrder(tree2);
+        TreeNode root = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
+        levelOrder(root).stream().forEach(l -> System.out.println(Arrays.deepToString(l.toArray())));
+//        Integer[] nums = {4, -7, -3, null, null, -9, -3, 9, -7, -4, null, 6, null, -6, -6, null, null, 0, 6, 5, null, 9, null, null, -1, -4, null, null, null, -2};
+//        layerTheTree(nums);
+//        TreeNode tree = buildTree(nums);
+//        printLevelOrder(tree);
+//        TreeNode tree2 = buildTreeV1(nums);
+//        printLevelOrder(tree2);
     }
 
     public static TreeNode sampleTree() {
@@ -26,7 +28,7 @@ public class LevelOrderedTree {
     }
 
     public static TreeNode sampleBalancedBinary() {
-        Integer[] nums = {3,9,20,null,null,15,7};
+        Integer[] nums = {3, 9, 20, null, null, 15, 7};
         return buildTree(nums);
     }
 
@@ -36,6 +38,30 @@ public class LevelOrderedTree {
 
     public static boolean isPowerOf2(int n) {
         return Math.ceil(Math.log(n) / Math.log(2)) == Math.floor(Math.log(n) / Math.log(2));
+    }
+
+    public static List<List<Integer>> levelOrder(TreeNode root) {
+        if (root == null) return Collections.emptyList();
+        List<List<Integer>> order = new ArrayList<>();
+        Queue<Queue<TreeNode>> levelQueues = new LinkedList<>();
+        levelQueues.add(new LinkedList<>(Collections.singletonList(root)));
+        while (!levelQueues.isEmpty()) {
+            Queue<TreeNode> leveledNodes = levelQueues.poll();
+            List<Integer> leveledValues = new LinkedList<>();
+            Queue<TreeNode> nextLevelNodes = new LinkedList<>();
+            while (!leveledNodes.isEmpty()) {
+                TreeNode node = leveledNodes.poll();
+                leveledValues.add(node.val);
+                if (node.left != null)
+                    nextLevelNodes.add(node.left);
+                if (node.right != null)
+                    nextLevelNodes.add(node.right);
+            }
+            if (!nextLevelNodes.isEmpty())
+                levelQueues.add(nextLevelNodes);
+            order.add(leveledValues);
+        }
+        return order;
     }
 
     public static TreeNode buildTree(Integer[] nums) {
