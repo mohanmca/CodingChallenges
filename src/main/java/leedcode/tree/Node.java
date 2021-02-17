@@ -1,22 +1,24 @@
 package leedcode.tree;
 
-public class TreeNode {
+public class Node {
     public int val;
-    TreeNode left;
-    TreeNode right;
+    public Node left;
+    public Node right;
+    public Node next;
 
-    public TreeNode() {
+    public Node() {
 
     }
 
-    public TreeNode(int val) {
+    public Node(int val) {
         this.val = val;
     }
 
-    public TreeNode(int val, TreeNode left, TreeNode right) {
+    public Node(int val, Node left, Node right, Node next) {
         this.val = val;
         this.left = left;
         this.right = right;
+        this.next = next;
     }
 
     @Override
@@ -25,6 +27,7 @@ public class TreeNode {
                 "val=" + val +
                 ", left=" + left +
                 ", right=" + right +
+                ", next=" + next +
                 '}';
     }
 }
