@@ -1,5 +1,7 @@
 package leedcode.tree;
 
+import java.util.stream.IntStream;
+
 public class Node {
     public int val;
     public Node left;
@@ -23,11 +25,18 @@ public class Node {
 
     @Override
     public String toString() {
-        return "TreeNode{" +
-                "val=" + val +
-                ", left=" + left +
-                ", right=" + right +
-                ", next=" + next +
-                '}';
+        return toString(2);
+    }
+
+    public String toString(int indentations) {
+        String space = new String(new char[indentations]).replace("\0", " ");
+
+        return space + "N{" +
+                "V=" + val +
+                ", L=" + (left == null ? "" : left.toString(indentations + 2)) +
+                ", R=" + (right == null ? "" : right.toString(indentations + 2)) +
+                ", H=" + hashCode() +
+                ", N=" + (next == null ? "" : next.hashCode())  +
+                "}\n";
     }
 }
