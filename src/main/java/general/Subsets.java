@@ -11,6 +11,7 @@ public class Subsets {
         for (int i = 1; i < nums.length; i++) {
             int finalI = i;
             int[] curr_nums  = Arrays.stream(nums).filter(j -> j != nums[finalI]).toArray();
+
             subSets.addAll(findSubsets(curr_nums));
         }
         List<List<Integer>> subSets2 = new ArrayList<>(subSets.size());

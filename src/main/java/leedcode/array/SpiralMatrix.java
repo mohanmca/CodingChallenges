@@ -7,11 +7,12 @@ import java.util.List;
 
 public class SpiralMatrix {
     public static void main(String[] args) {
-        int length = 4;
-        int[][] matrix = new int[length][length];
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                matrix[i][j] = i * length + j + 1;
+        int rows = 3;
+        int columns = 3;
+        int[][] matrix = new int[rows][columns];
+        for (int r = 0; r < matrix.length; r++) {
+            for (int c = 0; c < matrix[0].length; c++) {
+                matrix[r][c] = matrix[0].length * r + c + 1;
             }
         }
         int[][] spiral = new int[1][1];
@@ -37,9 +38,10 @@ public class SpiralMatrix {
         List<Integer> spiralIntegers = new ArrayList<>(iteration);
         while (iter < iteration) {
             int spiralCount = count / 4;
-            int maxColumn = matrix.length - 1 - spiralCount;
-            int maxRow = matrix[0].length - 1 - spiralCount;
+            int maxRow = matrix.length - 1 - spiralCount;
+            int maxColumn = matrix[0].length - 1 - spiralCount;
             if (flag) {
+                System.out.printf("%1d, %1d, %1d\n", row, column, matrix[row][column]);
                 spiralIntegers.add(matrix[row][column]);
                 iter++;
             }
