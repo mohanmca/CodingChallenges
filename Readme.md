@@ -95,3 +95,27 @@
 
 ## Graph
 * Minimzing Permutations
+
+## Programming Paradigms
+
+1. Union find  [X]
+1. Recursion [X]
+1. Linked list [X]
+1. Stack [X]
+1. Queue [X]
+1. hashing [X]
+1. sorting [X]
+1. binary search [X]
+1. trees [X]
+1. Heaps [X]
+1. BFS [X]
+1. DFS [X]
+1. Two pointers 
+1. Sliding-window 
+1. BST 
+1. Graph basics 
+1. backtracking 
+1. greedy 
+1. Dynamic programming 
+1. advanced graph 
+1. bit manipulation.
