@@ -1,5 +1,8 @@
 package leedcode.tree;
 
+/**
+ * https://leetcode.com/problems/path-sum/submissions/
+ */
 public class PathToSumTree {
 
     public static void main(String[] args) {
@@ -29,6 +32,17 @@ public class PathToSumTree {
     }
 
     public boolean hasPathSum(TreeNode root, int targetSum) {
+        if(root==null)
+            return false;
+
+        targetSum = targetSum - root.val;
+        if( targetSum == 0 && (root.left==null && root.right==null) ) {
+            return true;
+        }
+        return hasPathSum(root.left, targetSum) ||  hasPathSum(root.right,targetSum);
+    }
+
+    public boolean hasPathSumV2_Working(TreeNode root, int targetSum) {
         if (root == null) return false;
         int newTarget = targetSum;
         if (root.val < 0 && targetSum > 0 || root.val > 0 && targetSum < 0)

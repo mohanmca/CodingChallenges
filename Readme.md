@@ -6,9 +6,25 @@
 * [How to loop through all the combinations of e.g. 48 choose 5 [duplicate]](https://stackoverflow.com/questions/8375452/how-to-loop-through-all-the-combinations-of-e-g-48-choose-5)
 * [Iterating over combinations](https://codereview.stackexchange.com/questions/211783/iterating-over-combinations)
 
+## GTD
 
+* ScoreParenthesis
+* Sparse Matrix Multiplication
+
+## Patterns of the problems
+
+* Sliding window pattern
+* [Prefix sum Applications](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)
+    1. Equilibrium index of an array
+    1. Find if there is a subarray with 0 sum
+    1. Find the prime numbers which can written as sum of most consecutive primes
+    1. Longest Span with same Sum in two Binary arrays
+    1. Maximum occurred integer in n ranges
+    1. Maximum subarray size, such that all subarrays of that size have sum less than k
+    1. Maximum subarray sum modulo m
+    1. Minimum cost for acquiring all coins with k extra coins allowed with every coin
+    1. Random number generator in arbitrary probability distribution fashion
 ## ByteDance
-
 
 1. Easy problem: https://leetcode.com/problems/maximum-subarray/
 2. Medium problem (a slight modification of this problem): https://leetcode.com/problems/minimum-window-substring/
@@ -36,14 +52,6 @@
 * System design - Design a scheduling system that can schedule millions of jobs per day
 * https://www.8bitmen.com/best-resources-to-learn-software-architecture-system-design/
 * https://www.cronj.com/blog/how-to-develop-chat-system-design-like-facebook-messenger/
-
-## GTD
-
-* Design Min Stack
-* Sprial Matrix
-* Sparse Matrix Multiplication
-* Roman to Decimal
-* Decimal to Roman
 
 ## FB Questions
 

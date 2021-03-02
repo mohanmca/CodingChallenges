@@ -29,6 +29,10 @@ public class TreeNode {
         return val == treeNode.val && Objects.equals(left, treeNode.left) && Objects.equals(right, treeNode.right);
     }
 
+    public int getVal() {
+        return val;
+    }
+
     @Override
     public int hashCode() {
         return Objects.hash(val, left, right);

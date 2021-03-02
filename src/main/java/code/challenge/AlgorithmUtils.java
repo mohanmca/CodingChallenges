@@ -37,6 +37,27 @@ public class AlgorithmUtils {
         return output;
     }
 
+    public static <T, U, R> R printInvokeReturn(BiFunction<T, U, R> fun, T input, U input2) {
+        if (isArray(input)) {
+            System.out.printf("%40s", Arrays.deepToString(Arrays.asList(input).toArray()));
+        } else {
+            System.out.print(input);
+        }
+        if (isArray(input2)) {
+            System.out.printf("%40s", Arrays.deepToString(Arrays.asList(input2).toArray()));
+        } else {
+            System.out.print(input2);
+        }
+        R output = fun.apply(input, input2);
+        if (isArray(output)) {
+            System.out.printf("  :: %15s\n", Arrays.deepToString(Arrays.asList(output).toArray()));
+        } else {
+            System.out.printf("  :: %-15s\n ", output);
+        }
+        return output;
+    }
+
+
     public static boolean isArray(Object obj) {
         return obj != null && obj.getClass().isArray();
     }
