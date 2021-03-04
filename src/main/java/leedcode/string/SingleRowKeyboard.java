@@ -8,9 +8,9 @@ import java.util.Map;
 public class SingleRowKeyboard {
     public static void main(String[] args) {
         SingleRowKeyboard solution = new SingleRowKeyboard();
-        AlgorithmUtils.printInvokeReturn(solution::calculateTime, "abcdefghijklmnopqrstuvxyz", "abc");
-        AlgorithmUtils.printInvokeReturn(solution::calculateTime, "abcdefghijklmnopqrstuvxyz", "cba");
-        AlgorithmUtils.printInvokeReturn(solution::calculateTime, "pqrstuvwxyzabcdefghijklmno", "leetcode");
+        AlgorithmUtils.printInvokV2Return(solution::calculateTime, "abcdefghijklmnopqrstuvxyz", "abc");
+        AlgorithmUtils.printInvokV2Return(solution::calculateTime, "abcdefghijklmnopqrstuvxyz", "cba");
+        AlgorithmUtils.printInvokV2Return(solution::calculateTime, "pqrstuvwxyzabcdefghijklmno", "leetcode");
     }
 
     public int calculateTime(String keyboard, String word) {

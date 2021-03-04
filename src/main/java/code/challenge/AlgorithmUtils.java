@@ -37,7 +37,7 @@ public class AlgorithmUtils {
         return output;
     }
 
-    public static <T, U, R> R printInvokeReturn(BiFunction<T, U, R> fun, T input, U input2) {
+    public static <T, U, R> R printInvokV2Return(BiFunction<T, U, R> fun, T input, U input2) {
         if (isArray(input)) {
             System.out.printf("%40s", Arrays.deepToString(Arrays.asList(input).toArray()));
         } else {

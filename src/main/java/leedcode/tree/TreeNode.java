@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class TreeNode {
     public int val;
+    public int depth;
     TreeNode left;
     TreeNode right;
 
@@ -12,13 +13,16 @@ public class TreeNode {
     }
 
     public TreeNode(int val) {
+        this.depth = 1;
         this.val = val;
     }
+
 
     public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
+        this.depth = Math.max(left.depth, right.depth) + 1;
     }
 
     @Override
@@ -42,6 +46,7 @@ public class TreeNode {
     public String toString() {
         return "TreeNode{" +
                 "val=" + val +
+                ", depth=" + depth +
                 ", left=" + left +
                 ", right=" + right +
                 '}';

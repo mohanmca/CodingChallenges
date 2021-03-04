@@ -65,6 +65,7 @@ public class LevelOrderedTree {
     }
 
     public static TreeNode buildTree(Integer[] nums) {
+        if (nums.length == 0) return null;
         int i = 0;
         TreeNode root = (nums[i] == null ? null : new TreeNode(nums[i++]));
         Queue<TreeNode> queue = new LinkedList<>();
@@ -74,6 +75,7 @@ public class LevelOrderedTree {
             TreeNode leftChild = (nums[i] == null ? null : new TreeNode(nums[i]));
             if (leftChild != null) {
                 node.left = leftChild;
+                node.depth = Math.max(leftChild.depth, node.right == null ? 0 : node.right.depth) + 1;
                 queue.add(leftChild);
             }
             if (++i < nums.length) {
@@ -81,6 +83,7 @@ public class LevelOrderedTree {
                 i++;
                 if (rightChild != null) {
                     node.right = rightChild;
+                    node.depth = Math.max(rightChild.depth, node.left == null ? 0 : node.left.depth) + 1;
                     queue.add(rightChild);
                 }
             }
