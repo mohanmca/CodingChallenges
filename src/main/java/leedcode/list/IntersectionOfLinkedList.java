@@ -17,6 +17,19 @@ public class IntersectionOfLinkedList {
         System.out.println(solution.getIntersectionNode(null, listNode1));
     }
 
+    public ListNode getIntersectionNodeV1(ListNode headA, ListNode headB) {
+        ListNode ptrA = headA;
+        ListNode ptrB = headB;
+
+        while (ptrA != ptrB) {
+            ptrA = (ptrA == null) ? headB : ptrA.next;
+            ptrB = (ptrB == null) ? headA : ptrB.next;
+        }
+
+        return ptrA;
+    }
+
+
     public ListNode getIntersectionNode(ListNode nodeA, ListNode headB) {
         ArrayDeque<ListNode> stackA = new ArrayDeque<>();
         ArrayDeque<ListNode> stackB = new ArrayDeque<>();
