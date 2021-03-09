@@ -26,6 +26,14 @@
     1. Maximum subarray sum modulo m
     1. Minimum cost for acquiring all coins with k extra coins allowed with every coin
     1. Random number generator in arbitrary probability distribution fashion
+  
+## Patterns of the problems
+* [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+* [Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
+* [Coding Patterns](https://emre.me/categories/#coding-patterns)
+* [The Ultimate Strategy to Preparing for the Coding Interview](https://dev.to/arslan_ah/the-ultimate-strategy-to-preparing-for-the-coding-interview-3ace)
+* [List of questions sorted by common patterns](https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-by-common-patterns.)
+
 ## ByteDance
 
 1. Easy problem: https://leetcode.com/problems/maximum-subarray/
