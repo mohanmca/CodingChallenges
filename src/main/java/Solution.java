@@ -1,43 +1,64 @@
-import java.util.*;
-
-class Solution {
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        System.out.println(sol.isStrobogrammatic("6")); 
-        System.out.println(sol.isStrobogrammatic("69169")); 
-        System.out.println(sol.isStrobogrammatic("A25")); 
-    }
-
-     public boolean isStrobogrammatic(String num) {
-         Map<Character, Character> oppositeNumber = new HashMap<Character, Character>();
-         oppositeNumber.put('9','6');
-         oppositeNumber.put('6','9');
-         oppositeNumber.put('8','8');
-         oppositeNumber.put('1','1');
-         char[] chars = num.toCharArray();
-         
-         if(chars.length==1 && (chars[0]=='8' || chars[0]=='1')) {
-            return true;
-         } else if(chars.length==1) {
-             return false;
-         }
-
-         for(int i=1; i<=chars.length/2; i++) {
-            if(!oppositeNumber.containsKey(chars[i-1]) || (oppositeNumber.get(chars[i-1]) != chars[chars.length-i])){
-                return false;
-            }
-         }
-         
-         
-         Set<Character> numbers = new HashSet<Character>();
-         for(char c: chars) {
-             numbers.add(c);
-         }
-         numbers.remove('9');
-         numbers.remove('1');
-         numbers.remove('8');
-         numbers.remove('6');
-         return numbers.size() == 0;
-     }
-}
+//import java.util.*;
+//// A Dynamic Programming based Java
+//// Program for the Egg Dropping Puzzle
+//class Solution
+//{
+//
+//    // A utility function to get max of two integers
+//    static int max (int x, int y) { return (x > y)? x : y; }
+//
+//    // Returns the length of the longest
+//    // palindromic subsequence in seq
+//    static int lps(String seq)
+//    {
+//    int n = seq.length();
+//    int i, j, cl;
+//    // Create a table to store results of subproblems
+//    int L[][] = new int[n][n];
+//
+//    // Strings of length 1 are palindrome of lentgh 1
+//    for (i = 0; i < n; i++)
+//        L[i][i] = 1;
+//
+//        // Build the table. Note that the lower
+//        // diagonal values of table are
+//        // useless and not filled in the process.
+//        // The values are filled in a manner similar
+//        //  to Matrix Chain Multiplication DP solution (See
+//        // https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/).
+//        // cl is length of substring
+//        for (cl=2; cl<=n; cl++)
+//        {
+//            for (i=0; i<n-cl+1; i++)
+//            {
+//                j = i+cl-1;
+//                if (seq.charAt(i) == seq.charAt(j) && cl == 2)
+//                L[i][j] = 2;
+//                else if (seq.charAt(i) == seq.charAt(j))
+//                L[i][j] = L[i+1][j-1] + 2;
+//                else
+//                L[i][j] = max(L[i][j-1], L[i+1][j]);
+//            }
+//        }
+//
+//        return L[0][n-1];
+//    }
+//
+//    /* Driver program to test above functions */
+//    public static void main(String args[])
+//    {
+//        String seq = "GEEKSFORGEEKS";
+//        int n = seq.length();
+//        System.out.println("The length of the lps is "+ lps(seq));
+//    }
+//}
+//
+//
+//
+//
+//
+//
+//
+//
+//
+///* This code is contributed by Rajat Mishra */

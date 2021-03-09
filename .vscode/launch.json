@@ -1,0 +1,1183 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlgorithmUtils",
+            "request": "launch",
+            "mainClass": "AlgorithmUtils",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayLeftRotation",
+            "request": "launch",
+            "mainClass": "ArrayLeftRotation",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetSubstringWithinBudget",
+            "request": "launch",
+            "mainClass": "GetSubstringWithinBudget",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalindrome",
+            "request": "launch",
+            "mainClass": "LongestPalindrome",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseShuffleMerge",
+            "request": "launch",
+            "mainClass": "ReverseShuffleMerge",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch RocksDBSample",
+            "request": "launch",
+            "mainClass": "RocksDBSample",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestJava",
+            "request": "launch",
+            "mainClass": "TestJava",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch WindowShaker",
+            "request": "launch",
+            "mainClass": "WindowShaker",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryCounter",
+            "request": "launch",
+            "mainClass": "algorithm.part1.BinaryCounter",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "algorithm.part1.InsertionSort",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "algorithm.part1.QuickSort",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShellSort",
+            "request": "launch",
+            "mainClass": "algorithm.part1.ShellSort",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlgorithmUtils(1)",
+            "request": "launch",
+            "mainClass": "code.challenge.AlgorithmUtils",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayLeftRotation(1)",
+            "request": "launch",
+            "mainClass": "code.challenge.ArrayLeftRotation",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetSubstringWithinBudget(1)",
+            "request": "launch",
+            "mainClass": "code.challenge.GetSubstringWithinBudget",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalindrome(1)",
+            "request": "launch",
+            "mainClass": "code.challenge.LongestPalindrome",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseShuffleMerge(1)",
+            "request": "launch",
+            "mainClass": "code.challenge.ReverseShuffleMerge",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort(1)",
+            "request": "launch",
+            "mainClass": "code.challenge.sort.QuickSort",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch AvgContiniguousSubArrayBruteForce",
+            "request": "launch",
+            "mainClass": "educative.AvgContiniguousSubArrayBruteForce",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch AvgContiniguousSubArrayMovingWindow",
+            "request": "launch",
+            "mainClass": "educative.AvgContiniguousSubArrayMovingWindow",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationIterator",
+            "request": "launch",
+            "mainClass": "general.CombinationIterator",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch NChooseK",
+            "request": "launch",
+            "mainClass": "general.NChooseK",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subsets",
+            "request": "launch",
+            "mainClass": "general.Subsets",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch HourglassSum",
+            "request": "launch",
+            "mainClass": "hackerrank.HourglassSum",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch NewYearChaos",
+            "request": "launch",
+            "mainClass": "hackerrank.NewYearChaos",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch OneLiner",
+            "request": "launch",
+            "mainClass": "jdk.oneline.OneLiner",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuyAndSellStock",
+            "request": "launch",
+            "mainClass": "leedcode.array.BuyAndSellStock",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckNAndDouble",
+            "request": "launch",
+            "mainClass": "leedcode.array.CheckNAndDouble",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountGoodTriplets",
+            "request": "launch",
+            "mainClass": "leedcode.array.CountGoodTriplets",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeciBinary",
+            "request": "launch",
+            "mainClass": "leedcode.array.DeciBinary",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindDuplicate",
+            "request": "launch",
+            "mainClass": "leedcode.array.FindDuplicate",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindRunningSum",
+            "request": "launch",
+            "mainClass": "leedcode.array.FindRunningSum",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstMissingPositive",
+            "request": "launch",
+            "mainClass": "leedcode.array.FirstMissingPositive",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch FourSum",
+            "request": "launch",
+            "mainClass": "leedcode.array.FourSum",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetMaximum",
+            "request": "launch",
+            "mainClass": "leedcode.array.GetMaximum",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch Intersection",
+            "request": "launch",
+            "mainClass": "leedcode.array.Intersection",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntersectionPreserveDuplicate",
+            "request": "launch",
+            "mainClass": "leedcode.array.IntersectionPreserveDuplicate",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch JumpGame",
+            "request": "launch",
+            "mainClass": "leedcode.array.JumpGame",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MissingNumber",
+            "request": "launch",
+            "mainClass": "leedcode.array.MissingNumber",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch OnesKLengthApart",
+            "request": "launch",
+            "mainClass": "leedcode.array.OnesKLengthApart",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlusOne",
+            "request": "launch",
+            "mainClass": "leedcode.array.PlusOne",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductExceptSelft",
+            "request": "launch",
+            "mainClass": "leedcode.array.ProductExceptSelft",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "leedcode.array.RemoveDuplicates",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateArray",
+            "request": "launch",
+            "mainClass": "leedcode.array.RotateArray",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShortestUnsortedContinuousSubArray",
+            "request": "launch",
+            "mainClass": "leedcode.array.ShortestUnsortedContinuousSubArray",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumber",
+            "request": "launch",
+            "mainClass": "leedcode.array.SingleNumber",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiralMatrix",
+            "request": "launch",
+            "mainClass": "leedcode.array.SpiralMatrix",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquaresOfASortedArray",
+            "request": "launch",
+            "mainClass": "leedcode.array.SquaresOfASortedArray",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArratSumEqualsK",
+            "request": "launch",
+            "mainClass": "leedcode.array.SubArratSumEqualsK",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArratSumEqualsKV2",
+            "request": "launch",
+            "mainClass": "leedcode.array.SubArratSumEqualsKV2",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArratSumEqualsKV3",
+            "request": "launch",
+            "mainClass": "leedcode.array.SubArratSumEqualsKV3",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArratSumEqualsKV4",
+            "request": "launch",
+            "mainClass": "leedcode.array.SubArratSumEqualsKV4",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSum",
+            "request": "launch",
+            "mainClass": "leedcode.array.ThreeSum",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSumClosest",
+            "request": "launch",
+            "mainClass": "leedcode.array.ThreeSumClosest",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSumClosestV2",
+            "request": "launch",
+            "mainClass": "leedcode.array.ThreeSumClosestV2",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopKFrequentElements",
+            "request": "launch",
+            "mainClass": "leedcode.array.TopKFrequentElements",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSumV2",
+            "request": "launch",
+            "mainClass": "leedcode.array.TwoSumV2",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSumSubArray",
+            "request": "launch",
+            "mainClass": "leedcode.array.dynamic.MaximumSumSubArray",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSumSubArrayV1",
+            "request": "launch",
+            "mainClass": "leedcode.array.dynamic.MaximumSumSubArrayV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicateLetters",
+            "request": "launch",
+            "mainClass": "leedcode.array.dynamic.RemoveDuplicateLetters",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch DistributeCandies",
+            "request": "launch",
+            "mainClass": "leedcode.array.easy.DistributeCandies",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShuffleArray",
+            "request": "launch",
+            "mainClass": "leedcode.array.easy.ShuffleArray",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrappingRainWater",
+            "request": "launch",
+            "mainClass": "leedcode.array.puzzle.TrappingRainWater",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryStringWithSubstringRep1ToN",
+            "request": "launch",
+            "mainClass": "leedcode.binary.BinaryStringWithSubstringRep1ToN",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniqueBinarySearchTrees",
+            "request": "launch",
+            "mainClass": "leedcode.catalan.UniqueBinarySearchTrees",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniquePath",
+            "request": "launch",
+            "mainClass": "leedcode.catalan.UniquePath",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch JumpGameZero",
+            "request": "launch",
+            "mainClass": "leedcode.connected.JumpGameZero",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch JumpGameZeroV1",
+            "request": "launch",
+            "mainClass": "leedcode.connected.JumpGameZeroV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinStack",
+            "request": "launch",
+            "mainClass": "leedcode.design.MinStack",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinStackV1",
+            "request": "launch",
+            "mainClass": "leedcode.design.MinStackV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "leedcode.easy.FizzBuzz",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch CloneGraph",
+            "request": "launch",
+            "mainClass": "leedcode.graph.CloneGraph",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindNUniqueInteger",
+            "request": "launch",
+            "mainClass": "leedcode.integer.FindNUniqueInteger",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch HappyNumber",
+            "request": "launch",
+            "mainClass": "leedcode.integer.HappyNumber",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntegerToRoman",
+            "request": "launch",
+            "mainClass": "leedcode.integer.IntegerToRoman",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntegerToRomanV1",
+            "request": "launch",
+            "mainClass": "leedcode.integer.IntegerToRomanV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElement",
+            "request": "launch",
+            "mainClass": "leedcode.integer.MajorityElement",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElement2",
+            "request": "launch",
+            "mainClass": "leedcode.integer.MajorityElement2",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElement2V2",
+            "request": "launch",
+            "mainClass": "leedcode.integer.MajorityElement2V2",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReduceANumberToZero",
+            "request": "launch",
+            "mainClass": "leedcode.integer.ReduceANumberToZero",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseInteger",
+            "request": "launch",
+            "mainClass": "leedcode.integer.ReverseInteger",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch RomanToInteger",
+            "request": "launch",
+            "mainClass": "leedcode.integer.RomanToInteger",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SqrtOfx",
+            "request": "launch",
+            "mainClass": "leedcode.integer.SqrtOfx",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoNumber",
+            "request": "launch",
+            "mainClass": "leedcode.list.AddTwoNumber",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch CopyListWithRandomPointer",
+            "request": "launch",
+            "mainClass": "leedcode.list.CopyListWithRandomPointer",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch CopyListWithRandomPointerV1",
+            "request": "launch",
+            "mainClass": "leedcode.list.CopyListWithRandomPointerV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntersectionOfLinkedList",
+            "request": "launch",
+            "mainClass": "leedcode.list.IntersectionOfLinkedList",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeKSortedList",
+            "request": "launch",
+            "mainClass": "leedcode.list.MergeKSortedList",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoLists",
+            "request": "launch",
+            "mainClass": "leedcode.list.MergeTwoLists",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "leedcode.list.ReverseLinkedList",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyHashMap",
+            "request": "launch",
+            "mainClass": "leedcode.map.MyHashMap",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch FractionToReccuringDecimal",
+            "request": "launch",
+            "mainClass": "leedcode.math.FractionToReccuringDecimal",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerOfThree",
+            "request": "launch",
+            "mainClass": "leedcode.math.PowerOfThree",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryShortestPath",
+            "request": "launch",
+            "mainClass": "leedcode.matrix.BinaryShortestPath",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfIslands",
+            "request": "launch",
+            "mainClass": "leedcode.matrix.NumberOfIslands",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchMatrix",
+            "request": "launch",
+            "mainClass": "leedcode.matrix.SearchMatrix",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchMatrix2",
+            "request": "launch",
+            "mainClass": "leedcode.matrix.SearchMatrix2",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryCounter(1)",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.BinaryCounter",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationSum",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.CombinationSum",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateParenthesis",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.GenerateParenthesis",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateParenthesisV1",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.GenerateParenthesisV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetterOfCombinationsOfPhoneNumber",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.LetterOfCombinationsOfPhoneNumber",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetterOfCombinationsOfPhoneNumberUsingBackTracking",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.LetterOfCombinationsOfPhoneNumberUsingBackTracking",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetterOfCombinationsOfPhoneNumberV1",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.LetterOfCombinationsOfPhoneNumberV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextPermutation",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.NextPermutation",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.Permutation",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationInString",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.PermutationInString",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationOfString",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.PermutationOfString",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subsets(1)",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.Subsets",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsetsUsingBackTracking",
+            "request": "launch",
+            "mainClass": "leedcode.recursion.SubsetsUsingBackTracking",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetMismatch",
+            "request": "launch",
+            "mainClass": "leedcode.set.SetMismatch",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindowMaximum",
+            "request": "launch",
+            "mainClass": "leedcode.sliding_window.SlidingWindowMaximum",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortColors",
+            "request": "launch",
+            "mainClass": "leedcode.sort.SortColors",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianFinder",
+            "request": "launch",
+            "mainClass": "leedcode.stream.MedianFinder",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddStrings",
+            "request": "launch",
+            "mainClass": "leedcode.string.AddStrings",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddStringsV1",
+            "request": "launch",
+            "mainClass": "leedcode.string.AddStringsV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtoI",
+            "request": "launch",
+            "mainClass": "leedcode.string.AtoI",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch DefangingIP",
+            "request": "launch",
+            "mainClass": "leedcode.string.DefangingIP",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindUniqueCharacterInAString",
+            "request": "launch",
+            "mainClass": "leedcode.string.FindUniqueCharacterInAString",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch GroupAnagrams",
+            "request": "launch",
+            "mainClass": "leedcode.string.GroupAnagrams",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongSubStringWithoutRepetition",
+            "request": "launch",
+            "mainClass": "leedcode.string.LongSubStringWithoutRepetition",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommomPrefix",
+            "request": "launch",
+            "mainClass": "leedcode.string.LongestCommomPrefix",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommomPrefixV1",
+            "request": "launch",
+            "mainClass": "leedcode.string.LongestCommomPrefixV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "leedcode.string.LongestPalindromicSubstring",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinRemoveToMakeValid",
+            "request": "launch",
+            "mainClass": "leedcode.string.MinRemoveToMakeValid",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumWindowSubstring",
+            "request": "launch",
+            "mainClass": "leedcode.string.MinimumWindowSubstring",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumWindowSubstringV1Failed",
+            "request": "launch",
+            "mainClass": "leedcode.string.MinimumWindowSubstringV1Failed",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShortEncodingOfWords",
+            "request": "launch",
+            "mainClass": "leedcode.string.ShortEncodingOfWords",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShortEncodingOfWordsV1",
+            "request": "launch",
+            "mainClass": "leedcode.string.ShortEncodingOfWordsV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleRowKeyboard",
+            "request": "launch",
+            "mainClass": "leedcode.string.SingleRowKeyboard",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortingAndSearching",
+            "request": "launch",
+            "mainClass": "leedcode.string.SortingAndSearching",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortingAndSearchingV1",
+            "request": "launch",
+            "mainClass": "leedcode.string.SortingAndSearchingV1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidPalindrome",
+            "request": "launch",
+            "mainClass": "leedcode.string.ValidPalindrome",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParent",
+            "request": "launch",
+            "mainClass": "leedcode.string.ValidParent",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParent2",
+            "request": "launch",
+            "mainClass": "leedcode.string.ValidParent2",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch VerifyinganAlienDictionary",
+            "request": "launch",
+            "mainClass": "leedcode.string.VerifyinganAlienDictionary",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch JewelsAndStones",
+            "request": "launch",
+            "mainClass": "leedcode.string.easy.JewelsAndStones",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveVowel",
+            "request": "launch",
+            "mainClass": "leedcode.string.easy.RemoveVowel",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch AverageOfLevelsInBinaryTree",
+            "request": "launch",
+            "mainClass": "leedcode.tree.AverageOfLevelsInBinaryTree",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePruning",
+            "request": "launch",
+            "mainClass": "leedcode.tree.BinaryTreePruning",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructFromInAndPostorder",
+            "request": "launch",
+            "mainClass": "leedcode.tree.ConstructFromInAndPostorder",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructFromInAndPreorder",
+            "request": "launch",
+            "mainClass": "leedcode.tree.ConstructFromInAndPreorder",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiameterOfBinaryTree",
+            "request": "launch",
+            "mainClass": "leedcode.tree.DiameterOfBinaryTree",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfBalancedBinaryTree",
+            "request": "launch",
+            "mainClass": "leedcode.tree.IfBalancedBinaryTree",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch InOrderTrversal",
+            "request": "launch",
+            "mainClass": "leedcode.tree.InOrderTrversal",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeastCommonAncestor",
+            "request": "launch",
+            "mainClass": "leedcode.tree.LeastCommonAncestor",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch LevelOrderedTree",
+            "request": "launch",
+            "mainClass": "leedcode.tree.LevelOrderedTree",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxDepthTree",
+            "request": "launch",
+            "mainClass": "leedcode.tree.MaxDepthTree",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumBinaryTreeCamera",
+            "request": "launch",
+            "mainClass": "leedcode.tree.MinimumBinaryTreeCamera",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PathToSumTree",
+            "request": "launch",
+            "mainClass": "leedcode.tree.PathToSumTree",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PathToSumTreeV3",
+            "request": "launch",
+            "mainClass": "leedcode.tree.PathToSumTreeV3",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PathToSumTreeV3V1",
+            "request": "launch",
+            "mainClass": "leedcode.tree.PathToSumTreeV3V1",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PopulatingNextRightPointers",
+            "request": "launch",
+            "mainClass": "leedcode.tree.PopulatingNextRightPointers",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PopulatingNextRightPointersV2",
+            "request": "launch",
+            "mainClass": "leedcode.tree.PopulatingNextRightPointersV2",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PostOrderTrversal",
+            "request": "launch",
+            "mainClass": "leedcode.tree.PostOrderTrversal",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch PreOrderTrversal",
+            "request": "launch",
+            "mainClass": "leedcode.tree.PreOrderTrversal",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SameTree",
+            "request": "launch",
+            "mainClass": "leedcode.tree.SameTree",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SerializeAndDerserialize",
+            "request": "launch",
+            "mainClass": "leedcode.tree.SerializeAndDerserialize",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch SymmetricTree",
+            "request": "launch",
+            "mainClass": "leedcode.tree.SymmetricTree",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnivalueSubtrees",
+            "request": "launch",
+            "mainClass": "leedcode.tree.UnivalueSubtrees",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidateBST",
+            "request": "launch",
+            "mainClass": "leedcode.tree.ValidateBST",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch VerticalOrderTraversal",
+            "request": "launch",
+            "mainClass": "leedcode.tree.VerticalOrderTraversal",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch VerticalOrderTraversalFailed",
+            "request": "launch",
+            "mainClass": "leedcode.tree.VerticalOrderTraversalFailed",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch BstFromPreorderTraversal",
+            "request": "launch",
+            "mainClass": "leedcode.tree.bst.BstFromPreorderTraversal",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopKFrequentWords",
+            "request": "launch",
+            "mainClass": "leedcode.trie.TopKFrequentWords",
+            "projectName": "coding-challenge"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateTimeFormat",
+            "request": "launch",
+            "mainClass": "test.DateTimeFormat",
+            "projectName": "coding-challenge"
+        }
+    ]
+}
