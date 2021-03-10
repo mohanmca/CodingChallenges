@@ -42,6 +42,12 @@
 
 ## CanSum
 
+* Problem Statement
+  * Write a function `canSum(targetSum, numbers)` that takes in a targetSum and an array  of numbers as arguments
+  * The function should return a boolean indicating whether or not it is possible to generate the targetSum using numbers from array
+  * You may use an element of the array as many times as possible
+  * You may assume all input numbers are non-negative
+  * canSum(7, [2,5,3,4])
 * Recursion Verion of Can Sum - ![CanSum Tree](img/canSum.png)
 * Recursion Verion of Can Sum - ![CanSum Tree](img/canSumTree.JPG)
 * m = targetSum, and n=array length
@@ -50,8 +56,13 @@
 * Time and SpaceComplexity - ![CanSum Tree](img/canSumTimeAndSpaceComplexity.JPG)
 
 
-## HasSum
+## HawSum
 
+* Problem Statement
+  * Write a function `howSum(targetSum, numbers)` that takes in a targetSum and an array  of numbers as arguments
+  * The function should return an array containing any combination of elements that add up to exactly the targetSum
+  * You may use an element of the array as many times as possible, return null if not possible.
+  * howSum(7,[5,3,4,7]
 * m = targetSum, and n=numbers.length
 * Recursion - Height of the tree = O(M)  (when m == 1)
 * Recursion version - time-complexity: O(n^m * m)
