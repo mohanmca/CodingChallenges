@@ -23,7 +23,7 @@ public class LevelOrderedTree {
     }
 
     public static TreeNode sampleTree2() {
-        Integer[] nums = {1, 2, 3, 4, 5};
+        Integer[] nums = {1, 2, null, 4, 5};
         return buildTree(nums);
     }
 

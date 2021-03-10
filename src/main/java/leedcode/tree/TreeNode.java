@@ -22,7 +22,7 @@ public class TreeNode {
         this.val = val;
         this.left = left;
         this.right = right;
-        this.depth = Math.max(left.depth, right.depth) + 1;
+        this.depth = Math.max(left != null ? left.depth : 0, right != null ? right.depth : 0) + 1;
     }
 
     @Override
